@@ -1,0 +1,20 @@
+/*----button---*/
+.bouton {
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 1px;
+    transition: background-color 0.0s ease;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.droite {
+    text-align: right;
+}
+.bouton {
+    display: flex;
+    justify-content: space-around;
+}
